@@ -3,7 +3,7 @@ import trimesh
 import math
 
 class spacetime():
-    def Hexadecimal():
+    def Hexadecimal(a,b,c,d,e,f):
          a = "00001011"
          b = "00001100"
          c = "00001101"
