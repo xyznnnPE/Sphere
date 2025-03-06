@@ -30,6 +30,8 @@ class wiki():
         return V - E + F == 2
 
     def __init__abcdef(dotline,Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron):
+        this.dot = 0
+        this.line = 0
         self.a = dotline
         self.b = Tetrahedron
         self.c = Hexhedron
