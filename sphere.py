@@ -45,6 +45,3 @@ class wiki():
         return t1t2[a + b + c + d + e + f]
         return t3t4[a / b / c / d / e / f]
         return t5t6[a % b % c % d % e % f]
-
-      
-        
