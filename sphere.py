@@ -11,9 +11,9 @@ class spacetime():
          e = "00001111"
          f = "00010000"
     def space(X,Y,Z,Radius,theta,fai):
-         this.X = Radius * theta
-         this.Y = Radius * fai
-         this.Z = Radius * theta * fai
+         this.X = Radius * math.cos(theta)
+         this.Y = Radius * math.sin(fai)
+         this.Z = Radius * math.cos(theta) * math.cos(fai)
     def time(x,y,z,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12):
         return [
             a * math.sin(x + t1) + b * math.cos(x - t1) + c * math.sin(y + t2) + d * math.cos(y - t2) + e * math.sin(z + t3) + f * math.cos(z - t3),       #t123
@@ -45,3 +45,10 @@ class wiki():
         return t7t8[a + b + c + d + e + f]
         return t9t10[a / b / c / d / e / f]
         return t11t12[a % b % c % d % e % f]
+        
+class loop():
+    def XYZ():
+        for x in range(2*2*2*2):
+        for y in range(2*2*2*2):
+        for z in range(2*2*2*2):
+            
