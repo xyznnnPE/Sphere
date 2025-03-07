@@ -25,7 +25,7 @@ class spacetime():
 class wiki():
     def __init__polyhedron(Vertex,Edges,faces):
         self.Vertex = [V]
-        self.Edged = [E]
+        self.Edges = [E]
         self.faces = [F]
         return V - E + F == 2
 
