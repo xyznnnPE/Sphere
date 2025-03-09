@@ -31,7 +31,7 @@ class wiki():
 
     def __init__abcdef(dot,line,Tetrahedron,Hexhedron,Octhedron,Dodecahedron,Icosahedron):
         this.dot = 0
-        this.line = 0
+        this.line = 1
         self.a = dotline
         self.b = Tetrahedron
         self.c = Hexhedron
