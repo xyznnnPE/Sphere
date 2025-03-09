@@ -44,7 +44,7 @@ class wiki():
         return t5t6[a * b * c * d * e * f]
         return t7t8[a / b / c / d / e / f]
         return t9t10[a % b % c % d % e % f]
-        return t11t12[a :: b :: c :: d :: e :: f]
+        return t11t12[a : b : c : d : e : f]
         
 class loop():
     def XYZ():
