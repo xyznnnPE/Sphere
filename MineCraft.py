@@ -7,7 +7,7 @@ import math
 TICKS_PER_SEC = 60
 SECTOR_SIZE = 16
 
-def cube_vertices(x, y, z, n):
+def xyznnn(x, y, z, n):
     return [
         x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,  # top
         x-n,y-n,z-n, x+n,y-n,z-n, x+n,y-n,z+n, x-n,y-n,z+n,  # bottom
