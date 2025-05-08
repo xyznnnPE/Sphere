@@ -29,9 +29,7 @@ class wiki():
         self.Faces = [F]
         return V - E + F == 2
 
-    def abcdef(dot,line,Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
-        this.dot = 0
-        this.line = 1
+    def abcdef(Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
         self.a = dotline
         self.b = Tetrahedron
         self.c = Hexhedron
