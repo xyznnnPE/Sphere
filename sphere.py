@@ -37,11 +37,4 @@ class wiki():
         self.c = Hexhedron
         self.d = Octahedron
         self.e = Dodecahedron
-        self.f = Icosahedron
-
-        return [a + b + c + d + e + f]
-        return [a - b - c - d - e - f]
-        return [a * b * c * d * e * f]
-        return [a / b / c / d / e / f]
-        return [a % b % c % d % e % f]
-        return [a : b : c : d : e : f]          
+        self.f = Icosahedron       
