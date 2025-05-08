@@ -23,13 +23,13 @@ class spacetime():
         ]
 
 class wiki():
-    def __init__polyhedron(Vertex,Edges,Faces):
+    def polyhedron(Vertex,Edges,Faces):
         self.Vertex = [V]
         self.Edges = [E]
         self.Faces = [F]
         return V - E + F == 2
 
-    def __init__abcdef(dot,line,Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
+    def abcdef(dot,line,Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
         this.dot = 0
         this.line = 1
         self.a = dotline
