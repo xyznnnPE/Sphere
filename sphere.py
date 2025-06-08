@@ -21,7 +21,7 @@ class spacetime():
             a * math.sinh(x + n) + b * math.cosh(x - n) + c * math.sinh(y + n) + d * math.cosh(y - n) + e * math.sinh(z + n) + f * math.cosh(z - n),
             a * math.tan(x + n) + b * math.atan(x - n) + c * math.tan(y + n) + d * math.atan(y - n) + e * math.tan(z + n) + f * math.atan(z - n)
         ]
-class equation(x,y,z):
+class equation(x,y,z,n):
    def  x():
         x1 = a * n^5 + b * n^4 + c * n^3 + d * n^2 + e * n + f
         x2 = a * n^4 + b * n^3 + c * n^2 + d * n + e * n^(-1) + f
