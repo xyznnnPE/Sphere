@@ -21,7 +21,21 @@ class spacetime():
             a * math.sinh(x + n) + b * math.cosh(x - n) + c * math.sinh(y + n) + d * math.cosh(y - n) + e * math.sinh(z + n) + f * math.cosh(z - n),
             a * math.tan(x + n) + b * math.atan(x - n) + c * math.tan(y + n) + d * math.atan(y - n) + e * math.tan(z + n) + f * math.atan(z - n)
         ]
-
+class equation(x,y,z):
+   def  x():
+        x1 = a * n^5 + b * n^4 + c * n^3 + d * n^2 + e * n + f
+        x2 = a * n^4 + b * n^3 + c * n^2 + d * n + e * n^(-1) + f
+   def  y():
+        y1 = a * n^3 + b * n^2 + c * n + d * n^(-1) + e * n^(-2) + f
+        y2 = a * n^2 + b * n + c * n^(-1) + d * n^(-2) + e * n^(-3) + f
+   def  z():      
+        z1 = a * n + b * n^(-1) + c * n^(-2) + d * n^(-3) + e * n^(-4) + f
+        z2 = a * n^(-1) + b * n^(-2) + c * n^(-3) + d * n^(-2) + e * n^(-5) + f
+        return [
+            (x1 - x2)^3 = "a * b * c * d * e * f",
+            (y1 - y2)^4 = "a / b / c / d / e / f",
+            (z1 - z2)^5 = "a % b % c % d % e % f"
+        ] 
 class wiki():
     def polyhedron(Vertex,Edges,Faces):
         self.Vertex = [V]
