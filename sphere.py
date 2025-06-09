@@ -31,21 +31,4 @@ class spacetime():
             a * math.asin(x + n) + b * math.acos(x - n) + c * math.asin(y + n) + d * math.acos(y - n) + e * math.asin(z + n) + f * math.acos(z - n),
             a * math.sinh(x + n) + b * math.cosh(x - n) + c * math.sinh(y + n) + d * math.cosh(y - n) + e * math.sinh(z + n) + f * math.cosh(z - n),
             a * math.tan(x + n) + b * math.atan(x - n) + c * math.tan(y + n) + d * math.atan(y - n) + e * math.tan(z + n) + f * math.atan(z - n)
-        ]
-
-class wiki():
-    def polyhedron(Vertex,Edges,Faces):
-        self.Vertex = [V]
-        self.Edges = [E]
-        self.Faces = [F]
-        return V - E + F == 2
-
-    def abcdef(Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
-        this.dot = 0
-        this.line = 1
-        self.a = dotline
-        self.b = Tetrahedron
-        self.c = Hexhedron
-        self.d = Octahedron
-        self.e = Dodecahedron
-        self.f = Icosahedron       
+        ] 
