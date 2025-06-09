@@ -1,4 +1,5 @@
-
+from sympy import polyhedron
+import trimesh
 class wiki():
     def polyhedron(Vertex,Edges,Faces):
         self.Vertex = [V]
