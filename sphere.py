@@ -4,14 +4,14 @@ import math
 
 class equation(x,y,z,n):
    def  x(n):
-        x1 = a * n^5 + b * n^4 + c * n^3 + d * n^2 + e * n + f
-        x2 = a * n^4 + b * n^3 + c * n^2 + d * n + e * n^(-1) + f
+        x + n = a * n^5 + b * n^4 + c * n^3 + d * n^2 + e * n + f
+        x - n = a * n^4 + b * n^3 + c * n^2 + d * n + e * n^(-1) + f
    def  y(n):
-        y1 = a * n^3 + b * n^2 + c * n + d * n^(-1) + e * n^(-2) + f
-        y2 = a * n^2 + b * n + c * n^(-1) + d * n^(-2) + e * n^(-3) + f
+        y + n = a * n^3 + b * n^2 + c * n + d * n^(-1) + e * n^(-2) + f
+        y - n = a * n^2 + b * n + c * n^(-1) + d * n^(-2) + e * n^(-3) + f
    def  z(n):      
-        z1 = a * n + b * n^(-1) + c * n^(-2) + d * n^(-3) + e * n^(-4) + f
-        z2 = a * n^(-1) + b * n^(-2) + c * n^(-3) + d * n^(-2) + e * n^(-5) + f
+        z + n = a * n + b * n^(-1) + c * n^(-2) + d * n^(-3) + e * n^(-4) + f
+        z - n = a * n^(-1) + b * n^(-2) + c * n^(-3) + d * n^(-2) + e * n^(-5) + f
 
 class spacetime():
     def Hexadecimal(a,b,c,d,e,f):
