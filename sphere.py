@@ -1,5 +1,4 @@
-from sympy import polyhedron
-import trimesh
+
 import math
 
 class equation(x,y,z,n):
