@@ -28,13 +28,13 @@ class spacetime():
          E = "00001111"
          F = "00010000"
     def space(X,Y,Z,Radius,theta,fai):
-         X = Radius * math.cos(theta)
-         Y = Radius * math.sin(fai)
-         Z = Radius * math.cos(theta) * math.cos(fai)
+         X = Radius * cos(theta)
+         Y = Radius * sin(fai)
+         Z = Radius * cos(theta) * cos(fai)
     def time(A,B,C,D,E,F,X,Y,Z,N):
         return [
-            A * math.sin(X + N) + B * math.cos(X - N) + C * math.sin(Y + N) + D * math.cos(Y - N) + E * math.sin(Z + N) + F * math.cos(Z - N),       
-            A * math.asin(X + N) + B * math.acos(X - N) + C * math.asin(Y + N) + D * math.acos(Y - N) + E * math.asin(Z + N) + F * math.acos(Z - N),
-            A * math.sinh(X + N) + B * math.cosh(X - N) + C * math.sinh(Y + N) + D * math.cosh(Y - N) + E * math.sinh(Z + N) + F * math.cosh(Z - N),
-            A * math.tan(X + N) + B * math.atan(X - N) + C * math.tan(Y + N) + D * math.atan(Y - N) + E * math.tan(Z + N) + F * math.atan(Z - N)
+            A * sin(X + N) + B * cos(X - N) + C * sin(Y + N) + D * cos(Y - N) + E * sin(Z + N) + F * cos(Z - N),       
+            A * asin(X + N) + B * acos(X - N) + C * asin(Y + N) + D * acos(Y - N) + E * asin(Z + N) + F * acos(Z - N),
+            A * sinh(X + N) + B * cosh(X - N) + C * sinh(Y + N) + D * cosh(Y - N) + E * sinh(Z + N) + F * cosh(Z - N),
+            A * tan(X + N) + B * atan(X - N) + C * tan(Y + N) + D * atan(Y - N) + E * tan(Z + N) + F * atan(Z - N)
         ] 
