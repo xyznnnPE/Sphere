@@ -8,13 +8,19 @@ TICKS_PER_SEC = 60
 SECTOR_SIZE = 16
 
 def xyznnn(x, y, z, n):
-    return [
-        x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,  # top
-        x-n,y-n,z-n, x+n,y-n,z-n, x+n,y-n,z+n, x-n,y-n,z+n,  # bottom
-        x-n,y-n,z-n, x-n,y-n,z+n, x-n,y+n,z+n, x-n,y+n,z-n,  # left
-        x+n,y-n,z+n, x+n,y-n,z-n, x+n,y+n,z-n, x+n,y+n,z+n,  # right
-        x-n,y-n,z+n, x+n,y-n,z+n, x+n,y+n,z+n, x-n,y+n,z+n,  # front
-        x+n,y-n,z-n, x-n,y-n,z-n, x-n,y+n,z-n, x+n,y+n,z-n,  # back
+    return [     
+        # Right face (x+n)
+        x+n,y-n,z+n,  x+n,y-n,z-n,  x+n,y+n,z-n,  x+n,y+n,z+n,
+        # Left face (x-n)
+        x-n,y-n,z-n,  x-n,y-n,z+n,  x-n,y+n,z+n,  x-n,y+n,z-n,
+        # Top face (y+n)
+        x-n,y+n,z-n,  x-n,y+n,z+n,  x+n,y+n,z+n,  x+n,y+n,z-n,
+        # Bottom face (y-n)
+        x-n,y-n,z-n,  x+n,y-n,z-n,  x+n,y-n,z+n,  x-n,y-n,z+n,
+        # Front face (z+n)
+        x-n,y-n,z+n,  x+n,y-n,z+n,  x+n,y+n,z+n,  x-n,y+n,z+n,
+        # Back face (z-n)
+        x-n,y-n,z-n,  x-n,y+n,z-n,  x+n,y+n,z-n,  x+n,y-n,z-n,
     ]
 
 def tex_coord(x, y, n=4):
