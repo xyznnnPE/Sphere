@@ -13,24 +13,3 @@ class equation():
    def  z(a,b,c,d,e,f,n):      
         z + n == a * n + b * n^(-1) + c * n^(-2) + d * n^(-3) + e * n^(-4) + f
         z - n == a * n^(-1) + b * n^(-2) + c * n^(-3) + d * n^(-2) + e * n^(-5) + f
-
-class spacetime():
-   
-    def Hexadecimal(A,B,C,D,E,F):
-         A = "00001011"
-         B = "00001100"
-         C = "00001101"
-         D = "00001110"
-         E = "00001111"
-         F = "00010000"
-    def space(X,Y,Z,Radius,theta,fai):
-         X = Radius * cos(theta)
-         Y = Radius * sin(fai)
-         Z = Radius * cos(theta) * cos(fai)
-    def time(A,B,C,D,E,F,X,Y,Z,N):
-        return [
-            A * sin(X + N) + B * cos(X - N) + C * sin(Y + N) + D * cos(Y - N) + E * sin(Z + N) + F * cos(Z - N),       
-            A * asin(X + N) + B * acos(X - N) + C * asin(Y + N) + D * acos(Y - N) + E * asin(Z + N) + F * acos(Z - N),
-            A * sinh(X + N) + B * cosh(X - N) + C * sinh(Y + N) + D * cosh(Y - N) + E * sinh(Z + N) + F * cosh(Z - N),
-            A * asinh(X + N) + B * acosh(X - N) + C * asinh(Y + N) + D * acosh(Y - N) + E * asinh(Z + N) + F * acosh(Z - N)
-               ] 
